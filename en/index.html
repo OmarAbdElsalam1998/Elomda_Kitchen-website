@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElOmda Kitchen</title>
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/aos.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <style>
+       body{
+        direction: ltr;
+        font-family:"Ubuntu-Medium",sans-serif !important;
+      }
+      *{
+        font-family:"Ubuntu-Medium",sans-serif !important;
+
+      }
+      @keyframes Hmoving {
+          0%{
+              transform: translateX(0px);
+          }
+          50%{
+              transform: translateX(125px);
+          }  
+          100%{
+              transform: translateX(0px);
+          }
+          
+      }
+
+      /* Start Header Section */
+      @media (max-width:992px) {
+        header .navbar.show {
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(5, 5, 5, 0.395);
+        padding: 0;
+        z-index: 99999;
+    }
+
+    header .navbar ul{
+        display: block;
+        position: fixed;
+        top: 0;
+        left:-300px;
+        width: 300px;
+        height: 100vh;
+        background-color: var(--brand-color);
+        transition: all .3s ease-in-out;
+        color: #FFF;
+        
+    }
+    header .navbar.show ul{
+        left: 0;
+        padding: 80px 0;
+        position: relative;
+    }
+    header .navbar.show .close-aside{
+       
+        top: 20px;
+        right: 20px;
+        left: unset;
+        cursor: pointer;
+
+    }
+        
+      }
+   
+      
+      /* Start Footer Section */
+      footer .heading:after {
+        content: "";
+        position: absolute;
+        left: 1px;
+        right: unset;
+        bottom: 0;
+        width: 50px;
+        height: 4px;
+        border-radius: 10px;
+        background-color: var(--fourth-color);
+    }
+    .dfGInLJtjHEgWq2BNr_A{
+      display:none
+    }
+    </style>
+</head>
+<body>
+ <!-- Start Header -->
+ <header id="header">
+  <nav class="">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <img class="default" src="../assets/images/Elomda_logo.webp" loading="lazy" alt="11T">
+        <img class="sticky" src="../assets/images/Elomda_logo.webp" loading="lazy" alt="11T">
+      </div>
+      <div class="navbar">
+      
+        <ul>
+          <div class="close-aside">
+            <img src="../assets/images/close.webp" loading="lazy" alt="X">
+          </div>
+          <li><a href="#about-us">About US</a></li>
+          <li><a href="#Our-works">Our Works</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+
+          <li><a href="#Our-partners">Our Partners</a></li>
+          <li><a href="/" class="d-flex align-items-center justify-content-center">
+            <div class="language-images ps-2">
+              <img class="sticky" src="../assets/images/language.webp" loading="lazy" alt="language">
+              <img class="default" src="../assets/images/language_white.webp" loading="lazy" alt="language">
+            </div>
+            <span> العربية</span>
+          </a></li>
+
+
+        </ul>
+      </div>
+      <div class="hamburger ">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    </div>
+  </nav>
+  <div class="main-banner">
+    <div class="container h-100 ">
+      <div class="row h-100 d-flex align-items-center">
+        <div class="col-12 text-center"  >
+          <div class="content" >
+            <h1 data-aos="fade-up">18 years of creativity and uniqueness, and today we have two branches inside Riyadh, in addition to our factory, which is a castle for creative fingers.
+            </h1>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <video autoplay loop muted>
+      <source src="../assets/videos/video.mp4" type="video/mp4">
+    </video>
+    <div class="scroll-down">
+      <span></span>
+    </div>
+  </div>
+
+ 
+  
+  
+</header>
+
+
+<!-- End Header -->
+
+
+  <!-- Start aboutus Section -->
+  <section class="about-us" id="about-us">
+    <div class="container">
+      
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6">
+          <div class="content">
+            <h2 class="special-heading" data-aos="fade-left">
+      
+              <span>About Us</span>
+              
+            </h2>
+            <p>Al-Omda Kitchens is an innovative institution established in the Kingdom of Saudi Arabia in 2005, affiliated with the Sahel Al-Omda Trading Company. It brought together a group of more than 50 creative people with Arab minds and arms, taking it upon themselves to provide every Arab home with modern decorative touches from the finest wooden kitchens, as well as aluminum and all wooden decoration works, cabinets and sinks. Marble gives Arab homes the sense of luxury they deserve</p>
+            <p>18 years of creativity and uniqueness, and today we have two branches inside Riyadh, in addition to our factory, which is a castle for creative fingers.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="image">
+            <img class="img-fluid" src="../assets/images/about-us.webp" loading="lazy" alt="ABOUT US">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- End aboutus Section -->
+
+
+  <!-- Start Our Services -->
+  <section class="our-works" id="Our-works">
+    <div class="container">
+      <h2 class="special-heading " data-aos="fade-left">
+        
+        <span>Our Works</span>
+        
+    </h2>
+    <div class="owl-carousel owl-theme products" id="our_Works">
+     
+      <div class="item"  data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen1.webp" loading="lazy" alt="">
+              </div>
+             
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen2.webp" loading="lazy" alt="">
+              </div>
+              
+          </div>
+      
+      </div>
+      <div class="item"data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen3.webp" loading="lazy" alt="">
+              </div>
+             
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen4.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen5.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen6.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen7.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen8.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen9.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen10.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen11.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen12.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen13.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      <div class="item" data-aos="fade-up">
+          <div class="kitchen">
+              <div class="kitchen-image">
+                  <img src="../assets/images/kitchen14.webp" loading="lazy" alt="">
+              </div>
+            
+          </div>
+      
+      </div>
+      
+   
+    </div>
+  
+    </div>
+  </section>
+
+  <!-- End Our work spaces Section -->
+         <!-- Start Advantages Section -->
+         <section class="our-features" id="our-features">
+          <div class="inner">
+            <div class="container">
+              <h2 class="special-heading " data-aos="fade-left">
+                <span>Our Features</span>
+                  
+                
+              </h2>
+              <div class="row">
+                <div class="col-sm-6 col-md-4 mb-4 h-auto"  data-aos="fade-up">
+                  <div class="feature-box">
+                    <div class="icon">
+                      <img src="../assets/images/engagement.webp" alt="">
+                    </div>
+                    <div class="content">
+                      <h4>Group creative work</h4>
+                      <p>We work as a harmonious, creative team that welcomes every new idea. Our development stems from our appreciation for each individual</p>
+                    </div>
+                    
+    
+                  </div>
+                </div>  
+                <div class="col-sm-6 col-md-4 mb-4 h-auto"data-aos="fade-down">
+                  <div class="feature-box">
+                    <div class="icon">
+                      <img src="../assets/images/requirements.webp" alt="">
+                    </div>
+                    <div class="content">
+                      <h4>integrity</h4>
+                      <p>We adhere to all our contracts and agreements, and we bear full responsibility for our work, but rather we give the customer more than his expectations.</p>
+                    </div>
+                    
+    
+                  </div>
+                </div>  
+                <div class="col-sm-6 col-md-4 mb-4 h-auto"data-aos="fade-up">
+                  <div class="feature-box">
+                    <div class="icon">
+                      <img src="../assets/images/honesty.webp" alt="">
+                    </div>
+                    <div class="content">
+                      <h4>safety</h4>
+                      <p>The safety of all our creative employees is a top priority, as is society and the environment, so that we contribute to achieving homes whose kitchens are free of risks.</p>
+                    </div>
+                    
+    
+                  </div>
+                </div>  
+                <div class="col-sm-6 col-md-4 mb-4 h-auto" data-aos="fade-down">
+                  <div class="feature-box">
+                    <div class="icon">
+                      <img src="../assets/images/payment.webp" alt="">
+                    </div>
+                    <div class="content">
+                      <h4>Value for price</h4>
+                      <p>Because kitchens are one of the main components of modern homes that last a long time and are not a quick consumer commodity, we at Al Omda are keen to provide the highest quality at the best competitive prices.</p>
+                    </div>
+                    
+    
+                  </div>
+                </div>  
+                <div class="col-sm-6 col-md-4 mb-4 h-auto"data-aos="fade-up">
+                  <div class="feature-box">
+                    <div class="icon">
+                      <img src="../assets/images/flexible.webp" alt="">
+                    </div>
+                    <div class="content">
+                      <h4>Flexibility</h4>
+                      <p>We perform all our work with great flexibility and effectiveness to enable every woman to realize her dream of our kitchens through our creative solutions to exploit her space, whatever its dimensions.</p>
+                    </div>
+                    
+    
+                  </div>
+                </div>  
+                <div class="col-sm-6 col-md-4 mb-4 h-auto"data-aos="fade-down">
+                  <div class="feature-box">
+                    <div class="icon">
+                      <img src="../assets/images/service.webp" alt="">
+                    </div>
+                    <div class="content">
+                      <h4>Excellence</h4>
+                      <p>Excellence is our path to leadership, and we excel in performance, as well as serving our customers, time management, and satisfying all the women of the Kingdom</p>
+                    </div>
+                    
+    
+                  </div>
+                </div>  
+              </div>
+              
+            </div>
+          </div>
+
+         
+        </section>
+        <!-- End Advantages Section -->
+
+
+     <!-- Start Contact Us Section -->
+  <section class="contact-us" id="contact-us">
+    <div class="container">
+     
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="text" data-aos="fade-left">
+            <h2 class="special-heading">
+             
+              <span>Contact US</span>
+              
+            </h2> 
+            <p>For further inquiries or complaints, contact us at any time</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-form" data-aos="fade-right">
+            <form id="contact_Form">
+              <div class="form-group mb-3">
+                <input id="customerName" type="text" placeholder="Name">
+                <small class="error-message"></small>
+              </div>
+              <div class="form-group mb-3">
+                <input id="email" type="text" placeholder="Email">
+                <small class="error-message"></small>
+              </div>
+              <div  class="form-group mb-3" >
+                <input id="phone" type="tel" placeholder="phone" >
+                <small class="error-message"></small>
+              </div>
+              <div class="form-group mb-3">
+                <textarea id="message" placeholder="your Message"></textarea>
+                <small class="error-message"></small>
+              </div>
+              <button class="brand-btn" id="submit_form">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Contact Us Section -->
+
+    <!-- Start Services Section -->
+    <section class="our-partners" id="Our-partners">
+      <div class="container">
+        <h2 class="special-heading " data-aos="fade-left">
+          
+          <span>Our Partners</span>
+          
+        </h2>
+        <div class="owl-carousel owl-theme " id="our-partners">
+          <div class="item">
+            <div class="box" data-aos="flip-right">
+              <img src="../assets/images/hafele-logo.webp" loading="lazy" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="box" data-aos="flip-right">
+              <img src="../assets/images/artista_logo.webp" loading="lazy" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="box" data-aos="flip-right">
+              <img src="../assets/images/sayidaty_logo.png" loading="lazy" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="box" data-aos="flip-right">
+              <img src="../assets/images/superGas_logo.webp" loading="lazy" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="box" data-aos="flip-right">
+              <img src="../assets/images/BCMI_logo.webp" loading="lazy" alt="">
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+
+
+      
+
+
+
+  <!-- Start Footer -->
+   <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-xl-4 mb-5 mb-lg-0">
+            <div class="logo d-flex align-items-center" data-aos="fade-right">
+              <img class="default" src="../assets/images/elomda_logo_white.webp" loading="lazy" alt="logo">
+            </div>            
+            <p data-aos="fade-right">Al-Omda Kitchens is an innovative institution established in the Kingdom of Saudi Arabia in 2005, affiliated with the Sahel Al-Omda Trading Company. It brought together a group of more than 50 creative people with Arab minds and arms, taking it upon themselves to provide every Arab home with modern decorative touches from the finest wooden kitchens, as well as aluminum and all wooden decoration works, cabinets and sinks. Marble gives Arab homes the sense of luxury they deserve</p>
+ 
+          <!-- <div class="follow-us" data-aos-delay="600" data-aos="fade-right" >
+            <ul>
+              <li><a href="https://twitter.com"><img src="../assets/images/twitter.webp"></a></li>
+              <li><a href="https://www.instagram.com"><img src="../assets/images/instagram.webp"></a></li>
+
+
+            </ul>
+          </div> -->
+        </div>
+        <div class="col-lg-6 col-xl-4 mb-5 mb-lg-0">
+          <div class="contact" data-aos="fade-right" data-aos-delay="300">
+            <h3 class="heading">Contact US</h3>
+            <div class="address d-flex align-items-center">
+                <span class="icon">
+                  <img src="../assets/images/location.webp" loading="lazy" alt="phone">
+                </span>
+                <span class="text">
+                  <a href="https://maps.app.goo.gl/z92B81KYRFT5Y9pj9" target="_blank">Imam Abdullah bin Saud bin Abdulaziz Branch Road, Al-Taawun, Riyadh, Saudi Arabia</a>
+
+                </span>
+            </div>
+            <div class="email d-flex align-items-center">
+                <span class="icon">
+                  <img src="../assets/images/email.webp" loading="lazy" alt="phone">
+                </span>
+                <span class="text">
+                  <a href="mailto:omdakitchens@gmail.com">omdakitchens@gmail.com</a>
+
+                </span>
+            </div>
+            <div class="phone d-flex align-items-center">
+                <span class="icon">
+                  <img src="../assets/images/phone.webp" loading="lazy" alt="phone">
+                </span>
+                <span class="text">
+                  <a  href="tel:+966500442060">0500442060</a>
+
+                </span>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-lg-12 col-xl-4 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="600">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3622.86728529315!2d46.70718948499892!3d24.76573908409866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ1JzU2LjciTiA0NsKwNDInMTguMCJF!5e0!3m2!1sar!2ssa!4v1705771104250!5m2!1sar!2ssa" style="width:100%;height: 300px;border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- End Footer -->
+
+
+      
+
+  <!-- Start CopyRight Section -->
+  <section class="copyrights text-center">
+    <div class="container">
+      <div class="py-4">
+        <span>&copy;All rights reserved 2024</span>
+
+      </div>
+    </div>
+  </section>
+  <!-- End CopyRight Section -->
+
+
+
+
+    <!-- Start pop up alert message -->
+    <div class="pop-up-alert-message ">
+      <div class="flex-box">
+          <span class="message">
+          </span>
+          <span class="close-alert"><img class="im-fluid" width="30" height="30" src="../assets/images/close.webp" loading="lazy" alt="close alert"></span>
+      </div>
+  </div>
+  <!-- End pop up alert message -->
+
+
+    
+    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/email.min.js"></script>
+    <script src="../assets/js/sendingEmails_en.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script>
+       
+      AOS.init({
+      duration: 650,
+      once: false
+    });
+   </script>
+<script>
+  window._2chatConfig = {
+  phoneNumber: '+966500442060',
+  accountName: `Welcome!`,
+  statusMessage: `We typically reply within 1 hour`,
+  chatMessage: `Hey there! 👋
+How can we help you?`,
+  placeholder: 'Type your message...',
+  position: 'right',
+  colorScheme: 'automatic',
+  showNotification: false,
+};
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://widgets.2chat.io/index.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', '_2chat'));
+$('#our_Works').owlCarousel({
+  loop: false,
+  margin: 20,
+  nav: true,
+    rewindNav:true,
+  autoplay: true,
+  rtl:true,
+  dots:true,
+
+  navText: [
+    "<img src='../assets/images/left-arrow.webp'>",
+    "<img src='../assets/images/right-arrow.webp'>"
+  ],
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    500: {
+      items: 2
+    },
+    1000: {
+      items: 4
+    },
+    1600:{
+      items:5
+    }
+  },
+
+  
+  
+})
+</script>
+</body>
+</html>
